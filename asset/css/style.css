@@ -8,8 +8,9 @@ body {
 header {
     background-color: rgba(100, 150, 150, 100);
     position: fixed;
-    width: 100%;
+   
     top: 0;
+    left: 20%;
     
 }
 
@@ -71,5 +72,30 @@ nav > ul > li:hover {
     float: left;
 }
 
+
+
+/* css for myworks */
+
+#questions ul {
+    font-size: 30px;
+    color: red;
+
+}
+
+#questions a {
+    text-decoration: none;
+}
+#questions a:hover {
+    color: red;
+}
+
+#questions a:visited {
+    color: gray;
+}
+
+#questions a:visited:hover {
+    color: red;
+}
+/* end of myworks */
 
 

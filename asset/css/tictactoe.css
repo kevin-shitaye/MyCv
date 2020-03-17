@@ -1,0 +1,30 @@
+td {
+    border: 5px solid black;
+    height: 150px;
+    width: 150px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+
+.first {
+    border-left: white;
+}
+
+.third {
+    border-right: white;
+}
+
+#top td {
+    border-top: white;
+}
+
+#bottom td {
+    border-bottom: white;
+}
+
