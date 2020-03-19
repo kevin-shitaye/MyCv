@@ -30,74 +30,39 @@
     
     <!-- First step....head -->
 
-    <img src="./asset/images/man-in-black-formal-suit-jacket-653429.jpg" alt="random image" height=300 width="300" class="profile">      
-    <h1>Kevin Shitaye</h1>
-    <h3>Student, Addis Ababa Institute of Technology.</h3>
-    <p>My name is Kevin. I am a web developer...</p>
-            
-    
-    
-    <h1>Contact me</h1>
-    <form method="POST/GET" action="mailto:it.kevin.shitaye@gmail.com">
-    <table>
-        <tr>
-            <td>
-               <table>
-                   <tr>
-                       <td><label for="fName" >First name &nbsp;</td>
-                       <td><input type="text" id="fName" name="fName"  pattern="[a-z]{2,30}" title="No Number and Minimum length 2"><br><br></td>
-                   </tr>
-                   <tr>
-                       <td> <label for="sName">Second name &nbsp;</label></td>
-                       <td><input type="text" id="sName" name="sName"  pattern="[a-z]{2,30}" title="No Number and Minimum length 2"><br><br></td>
-                   </tr>
-                   <tr>
-                       <td><label for="email">Email &nbsp;</label></td>
-                       <td> <input type="email" id="email" name="email"><br><br</td>
-                   </tr>
-                   <tr>
-                       <td><label for="">Telephone &nbsp;</label></td>
-                       <td><input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}"
-                        required title="Format: 251-456-789012"></td>
-                   </tr>
-                   <tr>
-                       <td><label for="">Age</label></td>
-                       <td><input type="number" name="age" id="age" min="18" max="80" step="2"></td>
-                   </tr>
-                   <tr>
-                       <td><label for="password">Password &nbsp;</label></td>
-                       <td><input type="password" name="" id=""  minlength="8" required title="Minimum length 8 digits."><br><br></td>
-                   </tr>
-                   <tr>
-                       <td>Country:
-                        <select name="country" id="">
-                        <option value="et">Ethiopia</option>
-                        <option value="ken">Kenya</option>
-                        <option value="sud">Sudan</option>
-                        </select><br></td>
-                       <td> </td>
-                   </tr>
-                   <tr>
-                       <td> What do you want to say?</td>
-                       <td></td>
-                   </tr>
-                   <tr>
-                       <td><textarea name="" id="" cols="30" rows="10"></textarea><br><br></td>
-                       <td></td>
-                   </tr>
-                   <tr>
-                       <td><input type="submit" value="submit"></td>
-                       <td></td>
-                   </tr>
-               </table>
-               </form>
-            </td>
-            <td>
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20jemo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net">countdow timer</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-            </td>
-        </tr>
-    </table>
+    <img src="./asset/images/man-in-black-formal-suit-jacket-653429.jpg" alt="random image"  class="profile">      
+    <div id="aboutme">
+        <h1>Kevin Shitaye</h1>
+        <h3>Student, Addis Ababa Institute of Technology.</h3>
+        <p>My name is Kevin. I am a web developer...</p>
+                
+    </div>
 
+
+    <div id="contact">
+       
+        <div id="form">
+            <h1>Contact me</h1>
+            <form method="POST/GET" action="mailto:it.kevin.shitaye@gmail.com">
+                <div> <label for="fName" >Name <input type="text" id="fName" name="fName"  pattern="[a-z]{2,30}" title="No Number and Minimum length 2"> </label>   </div>
+                <div> <label for="email">Email  <input type="email" id="email" name="email"></label></div>
+                <div> <label for="">Telephone <input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}" required title="Format: 251-456-789012"> </label></div>
+                <div><label for="message"  >Message </label> </div>
+                <div>  <textarea name="" id="" cols="50" rows="15"></textarea></div>
+                <div><input type="submit" value="submit"></div>
+    
+            </form>
+        </div>
+     
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20jemo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net">countdow timer</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+    </div>
+   
+    
+    
+    
+   
+ 
 
 
    
