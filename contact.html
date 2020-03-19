@@ -29,50 +29,52 @@
     </header>
     
     <!-- First step....head -->
+    
 
-    <img src="./asset/images/man-in-black-formal-suit-jacket-653429.jpg" alt="random image"  class="profile">      
-    <div id="aboutme">
+        
+            
+            <img src="./asset/images/man-in-black-formal-suit-jacket-653429.jpg" alt="random image"  class="profile">      
+    
+       
+
+     <div id="hello">
         <h1>Kevin Shitaye</h1>
         <h3>Student, Addis Ababa Institute of Technology.</h3>
         <p>My name is Kevin. I am a web developer...</p>
-                
-    </div>
+   
+     </div>
 
+     <div id="contact">
+        <h1>Contact me</h1>
+        <form method="POST/GET" action="mailto:it.kevin.shitaye@gmail.com">
+            <div> <label for="fName" >Name <input type="text" id="fName" name="fName"  pattern="[a-z]{2,30}" title="No Number and Minimum length 2"> </label>   </div>
+            <div> <label for="email">Email  </label> <input type="email" id="email" name="email"></div>
+            <div> <label for="">Telephone  </label> <input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}" required title="Format: 251-456-789012"></div>
+            <div><label for="message"  >Message </label> </div>
+            <div>  <textarea name="" id="" cols="50" rows="15"></textarea></div>
+            <div><input type="submit" value="Submit"></div>
 
-    <div id="contact">
+        </form>
+     </div>
+
+     <div id="map">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="260" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20jemo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div><style>.mapouter{position:relative;text-align:right;height:260px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:260px;width:300px;}</style></div>
+     </div>
+           
        
-        <div id="form">
-            <h1>Contact me</h1>
-            <form method="POST/GET" action="mailto:it.kevin.shitaye@gmail.com">
-                <div> <label for="fName" >Name <input type="text" id="fName" name="fName"  pattern="[a-z]{2,30}" title="No Number and Minimum length 2"> </label>   </div>
-                <div> <label for="email">Email  <input type="email" id="email" name="email"></label></div>
-                <div> <label for="">Telephone <input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}" required title="Format: 251-456-789012"> </label></div>
-                <div><label for="message"  >Message </label> </div>
-                <div>  <textarea name="" id="" cols="50" rows="15"></textarea></div>
-                <div><input type="submit" value="submit"></div>
-    
-            </form>
-        </div>
-     
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20jemo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net">countdow timer</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-
-    </div>
-   
-    
-    
-    
-   
  
 
 
-   
-    <hr>
-    <a href="" target="_blank">FaceBook</a>
-    <a href="" target="_blank">Instagram</a> 
-    <hr>
-
-    <hr>
+   <footer>
+    <div>
+        <a href="" target="_blank">FaceBook</a>
+        <a href="" target="_blank">Instagram</a>
+    </div>
+    <div>
         <p align="center">Developed by Kevin S. &copy;2020</p>
-    <hr>
+    </div>
+     
+   </footer>
+   
 </body>
 </html>
