@@ -16,10 +16,22 @@ header {
     
 }
 
+#galhead {
+    text-transform: uppercase;
+    font-size: 25;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    width: 60rem;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
 #hello {
     position: absolute;
     top: 200px;
-    right: 10%;
+    left: 500px;
 }
 .index {
     border-bottom: 1px solid;
@@ -146,7 +158,16 @@ footer a:hover {
 }
 
 
-
+/* for gallery images */
+#images {
+    margin-bottom: 1100px;
+}
+#images img {
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 1.66%;
+}
 
 
 
